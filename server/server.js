@@ -31,7 +31,7 @@ const Slack = require('./slack');
       slackEvents.on('app_mention', (message, body) => {
           console.log(`Received a message event: user ${body.event.user} in channel ${body.event.channel} says ${body.event.text}`);
           if (!message.subtype && message.text.indexOf('hi') >= 0) {  
-              this.slack.notify(`Hey congrats <@${body.event.user}>!, you made your first slackbot`);
+              this.slack.notify(`Congrats <@${body.event.user}>!, you made your first slackbot`);
             };
         });
         
