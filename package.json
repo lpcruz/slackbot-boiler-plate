@@ -1,0 +1,25 @@
+{
+  "name": "slackbot-boiler-plate",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating slackbot with nodejs",
+  "main": "App.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpcruz/slackbot-boiler-plate.git"
+  },
+  "author": "Laurence Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpcruz/slackbot-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/lpcruz/slackbot-boiler-plate#readme",
+  "dependencies": {
+    "@slack/events-api": "^2.2.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
