@@ -4,7 +4,8 @@
   "description": "Boilerplate for creating slackbot with nodejs",
   "main": "App.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "bot": "node app.js"
   },
   "repository": {
     "type": "git",
